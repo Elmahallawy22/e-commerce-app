@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 
 export default async function LocaleLayout({
   children,
-  params
+  params: {locale}
 }: {
   children: React.ReactNode;
   params: { locale: string };
@@ -23,7 +23,7 @@ export default async function LocaleLayout({
   //   notFound();
   // }
 
-  const { locale } = await params;
+  // const { locale } = await params;
   const messages = await getMessages();
   
   return (
