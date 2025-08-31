@@ -22,8 +22,7 @@ const NavCategories = () => {
     ];
 
   return (
-    <div className="nav-categories flex justify-center">
-      <div className="container flex gap-3 md:gap-6 items-center">
+      <div className="nav-categories container mx-auto flex gap-3 md:gap-6 items-center">
         <p>
           <Link href={'/categories'}>{t("all_categories")}</Link>
         </p>
@@ -38,7 +37,6 @@ const NavCategories = () => {
             )
           })}
         </ul>
-      </div>
     </div>
   )
 }

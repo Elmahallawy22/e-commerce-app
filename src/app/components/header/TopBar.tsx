@@ -22,19 +22,17 @@ const TopBar = () => {
   }, []);
 
   return (
-    <div className='top-bar flex justify-center items-center h-[28px]'>
-      <div className="container flex justify-between">
-        <div className='flex items-center gap-2'>
-          <button className={`${lngValue === "en" && "active"}`}
-            onClick={() => { convertLanguage("en") }}
-          >English</button>
-          <span className='text-[#f2da5e]'>|</span>
-          <button className={`${lngValue === "ar" && "active"}`}
-            onClick={() => { convertLanguage("ar") }}
-          >العربية</button>
-        </div>
-        <p className='text-[#ff3b00] '>خصم 20% علي اول طلبية</p>
+    <div className="top-bar container mx-auto flex justify-between h-[28px] px-1">
+      <div className='flex items-center gap-2'>
+        <button className={`${lngValue === "en" && "active"}`}
+          onClick={() => { convertLanguage("en") }}
+        >English</button>
+        <span className='text-[#f2da5e]'>|</span>
+        <button className={`${lngValue === "ar" && "active"}`}
+          onClick={() => { convertLanguage("ar") }}
+        >العربية</button>
       </div>
+      <p className='text-[#ff3b00] '>خصم 20% علي اول طلبية</p>
     </div>
   )
 }

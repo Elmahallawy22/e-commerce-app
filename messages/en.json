@@ -19,5 +19,22 @@
     "brands": "Brands",
     "premium": "Premium",
     "newly": "Newly Arrived"
+  },
+  "Categories": {
+    "men": "Men's fashion",
+    "women": "Women's fashion",
+    "children": "Children's fashion",
+    "beauty": "Care and beauty",
+    "electronics": "Electronics",
+    "brands": "Brands",
+    "mobiles": "Mobiles",
+    "offers": "Offers"
+  },
+  "Home": {
+    "event_arrived": "An event has arrived",
+    "featured_items":"Featured items"
+  },
+  "ShowMore": {
+    "show_more": "Show More"
   }
 }

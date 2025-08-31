@@ -1,5 +1,5 @@
 {
-   "Header": {
+  "Header": {
     "offer": "خصم 20% علي اول طلبية",
     "search": "انت بتدور علي اية ؟",
     "login": "تسجيل الدخول",
@@ -19,5 +19,22 @@
     "brands": "ماركات",
     "premium": "بريميوم",
     "newly": "وصل حديثا"
+  },
+  "Categories": {
+    "men": "ازياء الرجال",
+    "women": "ازياء النساء",
+    "children": "ازياء الاطفال ",
+    "beauty": "العناية والجمال",
+    "electronics": "الالكترونيات",
+    "mobiles": "الموبايلات",
+    "brands": "ماركات",
+    "offers": "العروض"
+  },
+  "Home": {
+    "event_arrived": "وصل حدثا",
+    "featured_items": "الاصناف المميزه"
+  },
+  "ShowMore": {
+    "show_more": "عرض المزيد"
   }
 }

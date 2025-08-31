@@ -1,0 +1,35 @@
+.carousel-container {
+  padding: 0 5px;
+
+  .carousel-header {
+    display: flex;
+    margin-bottom: 1rem;
+
+    .show-more-link {
+      color: #222;
+      text-decoration: none;
+      // font-weight: bold;
+    }
+  }
+
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #EE7763 !important;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 1.5rem !important;
+}
+
+.swiper-pagination-bullet {
+  background-color: #EE7763
+}
