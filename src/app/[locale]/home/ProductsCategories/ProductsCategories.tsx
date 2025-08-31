@@ -8,10 +8,10 @@ const categories = [
   { name: "men", image: "/productCategories/Men.png" },
   { name: "women", image: "/productCategories/Women.png" },
   { name: "children", image: "/productCategories/Children.png" },
-  { name: "beauty", image: "/productCategories/beauty.png" },
+  { name: "beauty", image: "/productCategories/Beauty.png" },
   { name: "electronics", image: "/productCategories/electronics.png" },
-  { name: "brands", image: "/productCategories/mobiles.png" },
-  { name: "mobiles", image: "/productCategories/brands.png" },
+  { name: "brands", image: "/productCategories/Mobiles.png" },
+  { name: "mobiles", image: "/productCategories/Brands.png" },
   { name: "offers", image: "/productCategories/Offer.png" },
 ];
 

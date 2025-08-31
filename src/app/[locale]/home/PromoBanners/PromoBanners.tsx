@@ -29,7 +29,7 @@ export default function PromoBanners() {
   const tShow = useTranslations("ShowMore");
 
   return (
-    <section className="">
+    <section className="max-w-full overflow-hidden">
       <div className="container mx-auto flex justify-between items-center mb-1 sm:mb-2 px-2">
         <h2 className="text-lg md:text-2xl font-bold">{tHome("event_arrived")}</h2>
         <Link href={"/"}>{tShow("show_more")} &gt;</Link>
