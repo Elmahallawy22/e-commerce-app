@@ -32,7 +32,8 @@
   },
   "Home": {
     "event_arrived": "وصل حدثا",
-    "featured_items": "الاصناف المميزه"
+    "featured_items": "الاصناف المميزه",
+    "shop_across_categories":"تسوق عبر الفئات"
   },
   "ShowMore": {
     "show_more": "عرض المزيد"

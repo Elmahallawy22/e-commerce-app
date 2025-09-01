@@ -5,10 +5,11 @@ import PromoBanners from './PromoBanners/PromoBanners';
 import AllProducts from './AllProducts/AllProducts';
 import Brands from './Brands/Brands';
 import FeaturedItems from './FeaturedItems/FeaturedItems';
+import ProductsByCategory from './ProductByCategories/ProductsByCategory';
 
 const HomePageComponent = () => {
   return (
-    <section className='pt-6 space-y-6 md:space-y-12'>
+    <section className='py-6 space-y-6 md:space-y-12'>
       <HeroAndBrandLogos />
       <ProductsCategories />
       <PromoBanners />
@@ -16,6 +17,7 @@ const HomePageComponent = () => {
       <Brands />
       <FeaturedItems />
       <Brands />
+      <ProductsByCategory />
     </section>
   )
 }
