@@ -31,11 +31,24 @@
     "offers": "العروض"
   },
   "Home": {
-    "event_arrived": "وصل حدثا",
+    "event_arrived": "وصل حديثا",
     "featured_items": "الاصناف المميزه",
-    "shop_across_categories":"تسوق عبر الفئات"
+    "shop_across_categories": "تسوق عبر الفئات"
   },
   "ShowMore": {
     "show_more": "عرض المزيد"
+  },
+  "Footer": {
+    "who_we": "من نحن ",
+    "be_selller": "كن بائع لدينا",
+    "contacts": "جهات الاتصال",
+    "terms": "الشروط والأحكام",
+    "policies": "السياسات",
+    "subscribe_news": "اشترك في الاخبار",
+    "enter_email": "ادخل بريدك الالكتروني",
+    "subscribe": "اشترك",
+    "shopping": "تسوف عبر التطبيق ",
+    "follow_us": "تابعنا",
+    "foot": "الذئب | جمع الحقوق محفوظة"
   }
 }

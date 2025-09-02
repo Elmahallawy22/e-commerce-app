@@ -37,5 +37,18 @@
   },
   "ShowMore": {
     "show_more": "Show More"
+  },
+  "Footer": {
+    "who_we": "Who are we?",
+    "be_selller": "Be our seller",
+    "contacts": "Contacts",
+    "terms": "Terms and Conditions",
+    "policies": "Policies",
+    "subscribe_news": "Subscribe to the news",
+    "enter_email": "Enter your email",
+    "subscribe": "Subscribe",
+    "shopping": "Shopping through the application",
+    "follow_us": "Follow us",
+    "foot": "Wolf | Collection rights reserved"
   }
 }
