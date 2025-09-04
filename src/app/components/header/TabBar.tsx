@@ -16,7 +16,7 @@ const TabbarLink = ({ link, UnAvctiveIcon, AvctiveIcon, title }: TabbarLinkParam
   const comparedCurrentPath = currentPath === `/en${link}` || currentPath === `/ar${link}`;
 
   return (
-    <Link href={`/${link}`}>
+    <Link href={`${link}`}>
       {comparedCurrentPath ?
         <Image
           src={AvctiveIcon}

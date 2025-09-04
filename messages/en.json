@@ -50,5 +50,24 @@
     "shopping": "Shopping through the application",
     "follow_us": "Follow us",
     "foot": "Wolf | Collection rights reserved"
+  },
+  "Login": {
+    "welcome": "Welcome back!",
+    "sub_title":"Take a moment to log in",
+    "title": "Log in to your account",
+    "sign_up": "Sign up", 
+    "message": "Please log in to continue to your account.",
+    "fName": "First Name",
+    "lName": "Last Name",
+    "phone": "Phone",
+    "email": "Email",
+    "password": "Password",
+    "confirm_password": "Confirm Password",
+    "user_name":"User Name",
+    "forgot_password": "Forgot your password?",
+    "no_account": "Don't have an account?",
+    "have_account": "Already have an account?",
+    "login": "Log in",
+    "with": "with"
   }
 }
