@@ -16,7 +16,7 @@ const AuthLayout: React.FC<AuthLayoutProps> = ({ children, title, subtitle, welc
     <div className="md:min-h-screen flex flex-col md:flex-row">
       <div className="flex-1 flex items-center justify-center py-20 md:py-8 px-4 bg-white">
         <div className="w-full max-w-md">
-          <h1 className="text-3xl font-bold text-[#4b5da6] mb-2">{title}</h1>
+          <h1 className="text-3xl font-bold text-[#0060af] mb-2">{title}</h1>
           <p className="text-[#969696] mb-8">{subtitle}</p>
           {children}
         </div>

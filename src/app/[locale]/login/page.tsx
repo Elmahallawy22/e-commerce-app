@@ -54,7 +54,7 @@ const Login: React.FC = () => {
               value={formData.username}
               onChange={handleChange}
               placeholder={t('user_name')}
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition"
+              className="w-full px-4 py-3 border border-gray-300 rounded-lg"
               required
             />
           </div>
@@ -66,16 +66,16 @@ const Login: React.FC = () => {
               value={formData.password}
               onChange={handleChange}
               placeholder={t('password')}
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition"
+              className="w-full px-4 py-3 border border-gray-300 rounded-lg"
               required
             />
-            <a href="#" className="block text-sm text-blue-600 mt-2 hover:underline">
+            <a href="#" className="block text-sm text-[#0060af] mt-2 hover:underline">
               {t('forgot_password')}
             </a>
           </div>
           <button
             type="submit"
-            className="w-full bg-blue-600 text-white py-3 px-4 rounded-lg font-medium hover:bg-blue-700 transition focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+            className="w-full bg-[#0060af] text-white py-3 px-4 rounded-lg font-medium"
           >
             {t('login')}
           </button>
@@ -85,7 +85,7 @@ const Login: React.FC = () => {
         <SocialButtons mode="login" />
         <p className="text-center text-sm text-gray-600 mt-6">
           {t('no_account')}{' '}
-          <Link href="/signup" className="text-blue-600 font-medium hover:underline">
+          <Link href="/signup" className="text-[#0060af] font-medium hover:underline">
             {t('sign_up')}
           </Link>
         </p>

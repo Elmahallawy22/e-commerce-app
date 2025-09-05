@@ -53,9 +53,9 @@
   },
   "Login": {
     "welcome": "Welcome back!",
-    "sub_title":"Take a moment to log in",
+    "sub_title": "Take a moment to log in",
     "title": "Log in to your account",
-    "sign_up": "Sign up", 
+    "sign_up": "Sign up",
     "message": "Please log in to continue to your account.",
     "fName": "First Name",
     "lName": "Last Name",
@@ -63,11 +63,28 @@
     "email": "Email",
     "password": "Password",
     "confirm_password": "Confirm Password",
-    "user_name":"User Name",
+    "user_name": "User Name",
     "forgot_password": "Forgot your password?",
     "no_account": "Don't have an account?",
     "have_account": "Already have an account?",
     "login": "Log in",
     "with": "with"
+  },
+  "FooterPages": {
+    "who": "Who are we...",
+    "terms": "Terms and Conditions...",
+    "policies": "Policies...",
+    "welcome": "Welcome to Wolf Company!",
+    "p1": "We are an innovative technology company aiming to achieve progress and innovation in the world of technology. We are committed to providing pioneering and innovative solutions in fields such as artificial intelligence, mobile app development, cloud computing, and information security.",
+    "p2": "At Wolf, we ensure the highest levels of quality and performance for our clients. We believe technology should be a driving force for positive change and improving lives, so we strive to develop products and services that meet our clients' needs and exceed their expectations.",
+    "p3": "We have a distinguished team of passionate and experienced engineers and developers who work hard to achieve innovation and technical excellence. We rely on collaboration, innovation, and transparency in our work, aiming to build long-term relationships with our clients and success partners.",
+    "p4": "We also seek to contribute to society and achieve positive social impact. We support social initiatives and encourage our team to participate in volunteer activities and environmental initiatives.",
+    "p5": "We are proud of what we have achieved so far, but we are also committed to continuous growth and development. We believe that continuous learning and innovation are the keys to success in the rapidly changing world of technology.",
+    "p6": "Thank you for visiting our 'Who We Are' page. If you have any questions or inquiries, do not hesitate to contact us. We are ready to cooperate and help you achieve your technological goals.",
+    "we_ready": "We are always ready to help you",
+    "contact_us": "Contact us through any of the following support channels:",
+    "help_center": "Help Center",
+    "help_via_email": "Support via Email",
+    "help_via_phone": "Support via Phone"
   }
 }

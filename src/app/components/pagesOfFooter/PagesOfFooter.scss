@@ -1,0 +1,12 @@
+.pages-of-footer {
+  border-radius: 32px;
+  box-shadow: 4px 4px 36px 0 rgba(0, 0, 0, 0.15);
+}
+
+[dir="rtl"] .logo {
+  left: 32px;
+}
+
+[dir="ltr"] .logo {
+  right: 32px;
+}

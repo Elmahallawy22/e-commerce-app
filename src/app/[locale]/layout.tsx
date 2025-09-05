@@ -20,7 +20,7 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale}>
-      <body>
+      <body className='flex flex-col min-h-screen justify-between'>
         <NextIntlClientProvider>
           <Header />
           {children}

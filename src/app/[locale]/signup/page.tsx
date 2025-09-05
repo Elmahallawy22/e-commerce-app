@@ -98,7 +98,7 @@ const SignUp: React.FC = () => {
               <input
                 id="phone"
                 name="phone"
-                type="tel"
+                type="number"
                 value={formData.phone}
                 onChange={handleChange}
                 placeholder={t('phone')}
