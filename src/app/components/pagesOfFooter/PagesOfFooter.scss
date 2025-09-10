@@ -1,12 +1,19 @@
 .pages-of-footer {
   border-radius: 32px;
   box-shadow: 4px 4px 36px 0 rgba(0, 0, 0, 0.15);
+  max-width: 92vw;
+}
+
+@media (min-width : 1440px) {
+  .pages-of-footer {
+    max-width: 1320px;
+  }
 }
 
 [dir="rtl"] .logo {
-  left: 32px;
+  left: 24px;
 }
 
 [dir="ltr"] .logo {
-  right: 32px;
+  right: 24px;
 }

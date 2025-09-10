@@ -12,14 +12,14 @@ const PagesOfFooter: React.FC<PagesOfFooterProps> = ({ title }) => {
   const t = useTranslations("FooterPages");
 
   return (
-    <div className='pages-of-footer container mx-auto p-12 relative my-6 md:my-16 2xl:max-w-[1300px]'>
-      <div className="space-y-5 text-lg font-medium w-[95%]">
+    <div className='pages-of-footer container mx-auto p-12 relative my-6 md:my-16'>
+      <div className="space-y-5 md:text-lg font-medium w-[95%]">
         <Image
           src="/logo.svg"
           alt="logo"
-          width={120}
-          height={120}
-          className='logo absolute top-8'
+          width={100}
+          height={100}
+          className='logo absolute top-6'
         />
         <h2 className='text-2xl'>{t(`${title}`)}</h2>
         <div className="space-y-2">
