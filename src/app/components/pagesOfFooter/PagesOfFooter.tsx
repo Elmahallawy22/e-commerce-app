@@ -12,7 +12,7 @@ const PagesOfFooter: React.FC<PagesOfFooterProps> = ({ title }) => {
   const t = useTranslations("FooterPages");
 
   return (
-    <div className='pages-of-footer container mx-auto p-12 relative my-6 md:my-16'>
+    <div className='pages-of-footer container mx-auto py-12 px-6 md:px-12 relative my-6 md:my-16'>
       <div className="space-y-5 md:text-lg font-medium w-[95%]">
         <Image
           src="/logo.svg"
